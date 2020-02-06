@@ -1,0 +1,8 @@
+version: '2'
+
+
+services:
+  travelbookingapp:
+    build: . 
+    ports:
+      - '30080:8080'
